@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Balsamiq+Sans&family=Bangers&family=PT+Sans+Caption&family=Poppins:ital,wght@0,500;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+}
+main{
+    background-color: rgb(233, 230, 49);
+    height: 100vh;
+    padding: 10px;
+}
+
+main img{
+    width: 50px;
+    margin: auto;
+    display: block;
+
+}
+#formConsulta{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+#formConsulta input{
+    display: block;
+    margin: 15px auto;
+    height: 30px;
+}
+
+#pesquisaTexto{
+    width:100px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#pesquisaTexto:hover{
+    background-color: white;
+    color: black;
+}
